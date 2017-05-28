@@ -30,7 +30,7 @@ public class ItemMapper {
         }
         item.setCurrency(mas[2]);
         String name = mas[3];
-        if (name.charAt(name.length() - 1) == '”' && '”' == name.charAt(0)) {
+        if (name.charAt(name.length() - 1) == '"' && '"' == name.charAt(0)) {
             name = name.substring(1, name.length() - 2);
         }
         item.setName(name);
