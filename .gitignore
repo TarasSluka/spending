@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+/spending/spending.iml
+/.gitignore
+.idea/
+spending/target/
+!/.gitignore
